@@ -1,8 +1,7 @@
-function addingEventListener() {
-const input = document.getElementById('input');
-function clickMe() {
-    alert(`i got clicked so hard`);
+const thething = document.getElementById("main");
+thething.addEventListener('click',clicker);
+
+function Clicker(){
+    alert("this got clicked, mate.")
 }
-input.addEventListener('click', clickMe);
-}
-addingEventListener();
+
